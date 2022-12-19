@@ -1,3 +1,11 @@
+html {
+  background-color: aqua;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+}
 .game {
   width: 255px;
   text-align: center;
@@ -9,6 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 6rem;
 }
 
 .title {
@@ -20,6 +29,7 @@
 
 span {
   color: #fa0;
+  font-size: 30px;
 }
 .square {
   width: 80px;
@@ -27,10 +37,15 @@ span {
   background-color: #f25;
   float: left;
   margin: 2px;
-  font-size: 50px;
+  font-size: 60px;
+  text-align: center;
 }
 
 .sqaure:hover {
   background: #000;
   cursor: pointer;
+}
+
+.vs {
+  color: #000;
 }

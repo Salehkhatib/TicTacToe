@@ -70,11 +70,12 @@ function game(id) {
   if (turn === "x" && element.innerHTML == "") {
     element.innerHTML = "X";
     turn = "o";
-    title.innerHTML = "o";
+    title.innerHTML = "O ist dran";
   } else if (turn === "o" && element.innerHTML == "") {
-    element.innerHTML = "o";
+    element.innerHTML = "O";
     turn = "x";
-    title.innerHTML = "x";
+    title.innerHTML = "X ist dran";
   }
+
   winner();
 }
